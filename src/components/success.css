@@ -1,0 +1,96 @@
+.counter {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 0 0;
+}
+.success_class {
+  background-color: #222831;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.heading-success h2 {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.counter .counter-value {
+  color: #fff;
+  background: linear-gradient(to top right, #d23283, #771656);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+}
+.counter .counter-content {
+  color: #771656;
+  background: #fff;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 130px 25px 25px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.counter .counter-content:before {
+  content: "";
+  background: linear-gradient(to bottom, #d23283, #771656);
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transform: translateX(-50%);
+  position: absolute;
+  top: -65px;
+  left: 50%;
+}
+.counter h3 {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 21px;
+  margin: 0;
+}
+.counter.orange .counter-content {
+  color: #e84a16;
+}
+.counter.orange .counter-value {
+  background: linear-gradient(to top right, #f57312, #e84a16);
+}
+.counter.orange .counter-content:before {
+  background: linear-gradient(to bottom, #f57312, #e84a16);
+}
+.counter.green .counter-content {
+  color: #2c970d;
+}
+.counter.green .counter-value {
+  background: linear-gradient(to top right, #80f80d, #2c970d);
+}
+.counter.green .counter-content:before {
+  background: linear-gradient(to bottom, #80f80d, #2c970d);
+}
+.counter.blue .counter-content {
+  color: #1c7ac0;
+}
+.counter.blue .counter-value {
+  background: linear-gradient(to top right, #2ebef3, #1c7ac0);
+}
+.counter.blue .counter-content:before {
+  background: linear-gradient(to bottom, #2ebef3, #1c7ac0);
+}
+@media screen and (max-width: 990px) {
+  .counter {
+    margin-bottom: 40px;
+  }
+}

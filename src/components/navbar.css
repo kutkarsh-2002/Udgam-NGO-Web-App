@@ -1,0 +1,57 @@
+.navbar-decor {
+  background: #77ce93;
+  padding-bottom: 1px;
+  padding-top: 8px;
+}
+
+.logo-decor {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.774);
+  margin-top: 7px;
+  margin-left: 7px;
+  font-family: nexa;
+  font-weight: 700;
+}
+.font-decor {
+  color: #fff;
+  font-family: sans-serif;
+}
+div a.font-decor:hover {
+  background-color: #e7cbde;
+
+  color: white;
+  border-bottom: none;
+  border-radius: 52px;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  color: #fff !important;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .active {
+  border-bottom: 4px solid #d89dc5;
+}
+
+.logo {
+  margin-bottom: 7px !important;
+}
+.logo-nav {
+  width: 30px;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0px !important;
+}

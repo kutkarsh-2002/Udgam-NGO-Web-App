@@ -1,0 +1,27 @@
+.imgs {
+  height: 450px;
+}
+/* .para {
+  padding-top: 8px;
+} */
+
+.donate-class-btn {
+  margin-bottom: 45px;
+}
+
+li a.Donate {
+  background-color: #77ce93;
+  padding: 15px 26px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  border-bottom: none;
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+}
+
+li a.Donate:hover {
+  background-color: #e7cbde;
+  color: white;
+  border-bottom: none;
+}
